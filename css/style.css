@@ -1,0 +1,207 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 1366px;
+}
+
+.header-top, .header-bottom{
+	height: 44px;
+}
+
+.header-top{
+	background: #005FAE;
+}
+
+.header-bottom{
+	background: #F7F7F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	margin-bottom: 15px;
+}
+
+.breadcrumbs{
+	font-size: 12px;
+}
+
+.breadcrumb{
+	background: transparent;
+	padding-left: 0;
+}
+
+.breadcrumb-item a{
+	color: #666;
+}
+
+.breadcrumb-item.active{
+	color: #000;
+}
+
+.search{
+	background: #005FAE;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	width: 64px;
+    height: 40px;
+}
+
+.form-control{
+	height: 40px;
+}
+
+.input-group{
+	max-width: 940px;
+	width: 100%;
+	margin-bottom: 32px;
+	margin-right: 15px;
+}
+
+.prev:before{
+	content: '\f060';
+	font-family: Font Awesome\ 5 Free;
+	font-weight: 900;
+	margin-right: 5px;
+}
+
+.prev, .prev a{
+	color: #005FAE;
+	font-size: 14px;
+	margin-bottom: 16px;
+}
+
+h1{
+	font-size: 24px;
+}
+
+h2{
+	font-size: 19px;
+	font-weight: 600;
+}
+
+.seen, .leave-review, .seen a, .leave-review a{
+	font-size: 14px;
+	color: #999;
+	margin: 18px 30px 42px 0;
+}
+
+.seen:before{
+	content: '\f06e';
+	font-family: Font Awesome\ 5 Free;
+	margin-right: 5px;
+}
+
+.leave-review:before{
+	content: '\f4ad';
+	font-family: Font Awesome\ 5 Free;
+	margin-right: 5px;
+}
+
+.commercial{
+	float: right;
+	background: #FAFAFA;
+	width: 160px;
+    height: 320px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	color: #999;
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+.btn-outline-success{
+	color: #00C346!important;
+}
+
+.table td, .table th{
+	font-size: 12px;
+	font-weight: normal;
+	vertical-align: middle;
+}
+
+tbody tr td:first-child{
+	white-space: nowrap;
+}
+
+.thead-light th{
+	background: #F0F0F0!important;
+    border-radius: 3px;
+	height: 32px;
+	padding-top: 0;
+	padding-bottom: 0;
+    vertical-align: middle !important;
+	border: none;
+}
+
+.person:before{
+	content: url('../images/photo.png');
+	margin-right: 8px;
+}
+
+.person2:before{
+	content: url('../images/vitaly.png');
+	margin-right: 8px;
+}
+
+.person, .person2{
+	display: flex;
+    align-items: center;
+	white-space: nowrap;
+}
+
+.name, .name a{
+	color: #005FAE;
+}
+
+.from{
+	color: #999;
+}
+
+.product, .product a{
+	color: #005FAE;
+}
+
+.sale, .buy{
+	width: 60px;
+    height: 24px;
+	color: #fff!important;
+	font-size: 11px;
+	margin-right: 16px;
+	padding: 4px 0 0;
+	border: none;
+}
+
+.sale{
+	background: #6199C6;
+}
+
+.buy{
+	background: #EE6C4D;
+}
+
+.about-company{
+	max-width: 360px;
+	background: #F0F0F0;
+	margin-top: 16px;
+	padding: 16px;
+	font-size: 14px;
+	color: #424242;
+	line-height: 1.38;
+	margin-bottom: 200px;
+}
+
+.img-responsive{
+	margin-bottom: 8px;
+	margin-right: 4px;
+}
+
+.btn-outline-success:hover{
+	background-color: #00C346;
+    border-color: #00C346;
+	color: #fff!important;
+}
+
+@media (max-width: 500px){
+	.float-right{float: none!important;}
+}
+	
